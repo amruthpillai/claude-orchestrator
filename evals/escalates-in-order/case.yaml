@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: escalates-in-order
+expected_outcome: |
+  answer.md advises against max effort and gives the escalation order: first give the agent a way to measure p95 itself, then move to Opus at a lower effort than the failed Sonnet run, handing over a short summary of what was tried.

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: creates-subagent-roster
+expected_outcome: |
+  Five subagent definition files exist under .claude/agents/, each with valid frontmatter and a model and effort that fit the role: Haiku for code search and log reading (read-only tools), Sonnet for scoped bug fixes and per-PR review, Fable for refactor planning. The search agent is named Explore so it replaces the built-in one.

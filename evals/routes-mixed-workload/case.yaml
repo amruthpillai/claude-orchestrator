@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: routes-mixed-workload
+expected_outcome: |
+  delegation-plan.md routes each of the five pieces to a model tier and effort level that fits the kind of work: the major migration to Fable, the multi-PR feature to Opus, page copy to Sonnet, bulk tagging to Haiku, and log reading to a small model with the diagnosis kept on a larger one. It sequences the feature after the migration and gives the pieces a way to verify their work.
